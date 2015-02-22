@@ -1,0 +1,1 @@
+This folder will be the storage of the website content. Until we are ready to use it.

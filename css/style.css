@@ -1,0 +1,129 @@
+/*import a special font "Illuminati"*/
+@font-face {
+  font-family: Illuminati;
+  src: url('../fonts/The-Art-of-Illuminating.ttf');
+}
+ html, body{
+ 	height: 100%;
+ }
+
+body{
+	/*background-color: rgb(35, 68, 101);*/ /*softuni blue*/  
+	background-color: #799873;
+	color:white;
+	margin: 0;
+}
+#wrapper {
+	min-height: 100%;
+	height: auto !important;
+	height: 100%;
+	margin: 0 auto -4em;
+	position: relative;
+}
+
+header{
+	display: flex;
+	background-color: rgb(133, 187, 101);
+	padding: 0.5em 1em 0 1em;
+	text-transform: uppercase;
+	font-weight: bold;
+}
+.header.navigation{
+	width: 100%;
+}
+/*set the logo size*/
+div#logo{
+	width: 255px;
+	float: left;
+}
+/*navigation menu*/
+nav{
+	float: right;
+}
+nav a{
+	text-decoration: none;
+	color: white;
+	/*font-family: Illuminati;
+	font-size: 1.5em;*/
+}
+nav ul{
+	position: relative;
+	list-style-type: none;
+	text-align: right;	
+}
+nav>ul>li{
+	float: left;
+	padding: 1em 1em 0.5em 1em;
+	position: relative;
+	/*display: inline;*/
+	border-top-left-radius: 0.5em;
+	border-top-right-radius: 0.5em;
+}
+/*sub menu*/
+ul ul{
+	display: none;
+	position: absolute;
+	top: 100%;
+	left: 0;
+	background: #2D5F91; 
+	z-index: 1000;
+	float: left;
+	padding: 0;
+	border-bottom-left-radius: 0.5em;
+	border-bottom-right-radius: 0.5em;
+}
+ul ul li{
+	white-space:nowrap;
+	float: none;
+	clear: both;
+	text-align: left;
+	padding: 0.5em;
+	border-radius: 0.5em;
+}
+/*hover effects for the menu*/
+nav>ul>li:hover{
+	/*background-color: green;*/
+	background-color: #47935C;
+}
+nav>ul>li:hover > ul{
+	display: block;
+	padding: 0.5em;
+	/*background-color: rgb(72, 95, 43);*/
+	background-color: #47935C;
+}
+nav>ul>li>ul>li:hover{
+	background-color: #62B579;
+}
+
+/*Webpage content section*/
+#main{
+	display: block;
+	overflow: auto;
+	/*height: 100%;*/
+	min-height: 76.5vh;
+	padding: 1em;
+}
+section{
+	float: left;
+	width: 30%;
+	padding: 1em;
+}
+#news:first-letter,
+#events:first-letter,
+#video:first-letter{
+text-transform: uppercase;
+font-size: 3em;
+}
+/*FOOTER*/
+footer{
+	position: relative;
+	bottom: 0;
+	width: 100%;
+	overflow: hidden;
+	clear: both;
+}
+footer div{
+	padding: 1em;
+	text-align: center;
+
+}
