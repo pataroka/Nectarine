@@ -1,0 +1,39 @@
+.navigation>nav>ul>li>span>a:after{
+	content: " \25BC";
+}
+
+#main, #sidebar{
+	float: left;
+}
+#main{
+	width: 84%;
+	background-color: gray;
+}
+#main>div{
+	overflow: auto;
+}
+#sidebar{
+	width: 13%;
+	overflow: auto;
+	padding: 1em 0;
+}
+#sidebar nav ul{
+	padding: 0;
+}
+#sidebar nav ul li{
+	width: 90%;
+	padding: 0.5em;
+	border-radius: 0.5em;
+}
+#sidebar nav a{
+	margin:0 0.5em;
+}
+.soon{
+	width: 46%;
+}
+.passed{
+	width: auto;
+}
+footer{
+	background-color: rgb(133, 187, 101);
+}
