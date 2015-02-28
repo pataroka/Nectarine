@@ -1,10 +1,11 @@
 /*import a special font "Illuminati"*/
 @font-face {
   font-family: Illuminati;
-  src: url('../fonts/The-Art-of-Illuminating.ttf');
+  src: url('../fonts/kingthings-petrock-light.ttf');
 }
  html, body{
  	height: 100%;
+ 	font-family: Illuminati;
  }
 
 body{
