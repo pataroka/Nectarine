@@ -39,7 +39,7 @@
 			<form>
 				<fieldset>
 					<legend>
-						<h3>Recruit personal info</h3>
+						<h2>Recruit personal info</h2>
 					</legend>
 					<input type="text" name="firstname" placeholder="First name" pattern="[A-Za-z]+" />
 					<input type="text" name="lastname" placeholder="Last name" pattern="[A-Za-z]+" />
@@ -52,44 +52,52 @@
 			<form name="quiz">
 				<fieldset>
 					<legend>
-						<h3>Application Questionnaire</h3>
+						<h2>Application Questionnaire</h2>
 					</legend>
-					1. Question1?
-					<ul style="margin-top: 1pt">
-						<li><input type="radio" name="q1" value="Answer A">Answer A</li>
-						<li><input type="radio" name="q1" value="Answer B">Answer B</li>
-						<li><input type="radio" name="q1" value="Answer C">Answer C</li>
-					</ul>
-					2. Question2?
-					<ul style="margin-top: 1pt">
-						<li><input type="radio" name="q2" value="Answer A">Answer A</li>
-						<li><input type="radio" name="q2" value="Answer B">Answer B</li>
-						<li><input type="radio" name="q2" value="Answer C">Answer C</li>
-					</ul>
-					3. Question3?
-					<ul style="margin-top: 1pt">
-						<li><input type="radio" name="q3" value="Answer A">Answer A</li>
-						<li><input type="radio" name="q3" value="Answer B">Answer B</li>
-						<li><input type="radio" name="q3" value="Answer C">Answer C</li>
-					</ul>
-					4. Question4?
-					<ul style="margin-top: 1pt">
+					<h3>1. If Nakov eats himself, what will happen?</h3>
+					<ol type="a">
+						<li><input type="radio" name="q1" value="Answer A">He'll become twice his own size.</li>
+						<li><input type="radio" name="q1" value="Answer B">He'll dissapear completely.</li>
+						<li><input type="radio" name="q1" value="Answer C">He'll chase you down and eat you, too.</li>
+					</ol>
+					<h3>2. If you try to fail and succeed, what did you just do?</h3>
+					<ol type="a">
+						<li><input type="radio" name="q2" value="Answer A">Failed.</li>
+						<li><input type="radio" name="q2" value="Answer B">Succeeded.</li>
+						<li><input type="radio" name="q2" value="Answer C">Both.</li>
+					</ol>
+					<h3>3. What is the opposite of opposite?</h3>
+					<ol type="a">
+						<li><input type="radio" name="q3" value="Answer A">Opposite.</li>
+						<li><input type="radio" name="q3" value="Answer B">Same.</li>
+						<li><input type="radio" name="q3" value="Answer C">Nothing.</li>
+					</ol>
+					<h3>4. Question4?</h3>
+					<ol type="a">
 						<li><input type="radio" name="q4" value="Answer A">Answer A</li>
 						<li><input type="radio" name="q4" value="Answer B">Answer B</li>
 						<li><input type="radio" name="q4" value="Answer C">Answer C</li>
-					</ul>
+					</ol>
 				</fieldset>
+			</form>
 
+			<form>
 				<fieldset>
-					<legend>Done?</legend>
+					<legend>
+						<h2>Done?</h2>
+					</legend>
 					<input type="button" value="Get score" onclick="ShowResult()">
 					<input type="reset" value="Clear answers" onclick="Clear()">
 					<p> Score = <strong><input type="text" id="scr" size="5" name="percentage" disabled></strong>
 					<div id="rslt" class="result">
-						<img src="../images" alt="Nakov is poiting finger at you!">
+						<video width="320" height="240" controls>
+							<source src="../videos/you-are-not-prepared.mp4" type="video/mp4">
+							Your browser does not support the video tag.
+						</video>
 					</div>
 				</fieldset>
 			</form>
+
 		</main>
 
 		<footer>
