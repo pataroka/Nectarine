@@ -127,7 +127,25 @@ section{
 text-transform: uppercase;
 font-size: 3em;
 }
-
+.image {
+    display: inline-block;
+    width: 500px;
+}
+#left {
+    width: 500px;
+}
+#left img {
+    display: block;
+    float: right;
+    border-radius: 10px;
+    margin-bottom: 10px;
+}
+#content article {
+    height: 163px;
+}
+.info {
+    text-align: center;
+}
 /*=== Start FOOTER Start === */
 footer{
 	position: relative;
