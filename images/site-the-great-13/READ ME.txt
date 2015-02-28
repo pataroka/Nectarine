@@ -1,0 +1,2 @@
+Not all images are with the same resolution.
+Recommended resolution: 140 x 184
