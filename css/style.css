@@ -90,6 +90,9 @@ ul ul li{
 }
 
 /* === hover effects for the menu  === */
+nav>ul>li:hover{
+	background-color: #47935C;
+}
 nav>ul>li:hover > ul{
 	display: block;
 	padding: 0.5em;
