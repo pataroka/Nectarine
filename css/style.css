@@ -9,7 +9,6 @@
  }
 
 body{
-	/*background-color: rgb(35, 68, 101);*/ /*softuni blue*/  
 	background-color: #799873;
 	color:white;
 	margin: 0;
@@ -25,42 +24,50 @@ body{
 header{
 	display: flex;
 	background-color: rgb(133, 187, 101);
-	padding: 0.5em 1em 0 1em;
+	padding: 0 1em;
 	text-transform: uppercase;
 	font-weight: bold;
 }
 .header.navigation{
 	width: 100%;
+	display: inline-flex;
+	justify-content: space-between;
 }
 /*set the logo size*/
 div#logo{
 	width: 255px;
-	float: left;
 }
+
 /*navigation menu*/
-nav{
-	float: right;
+.navigation nav{
+	align-self: flex-end;
 }
 nav a{
 	text-decoration: none;
 	color: white;
-	/*font-family: Illuminati;
-	font-size: 1.5em;*/
 }
 nav ul{
 	position: relative;
 	list-style-type: none;
 	text-align: right;	
 }
+.navigation>nav>ul{
+	font-size: 1.1em;
+	letter-spacing: 1px;
+	display: flex;
+	flex-direction: row;
+	margin: 0 auto;
+	align-items: flex-end;
+}
 nav>ul>li{
-	float: left;
-	padding: 1em 1em 0.5em 1em;
+	padding: 1em;
 	position: relative;
-	/*display: inline;*/
+	align-self: baseline;
 	border-top-left-radius: 0.5em;
 	border-top-right-radius: 0.5em;
 }
 /*sub menu*/
+
 ul ul{
 	display: none;
 	position: absolute;
@@ -81,15 +88,11 @@ ul ul li{
 	padding: 0.5em;
 	border-radius: 0.5em;
 }
-/*hover effects for the menu*/
-nav>ul>li:hover{
-	/*background-color: green;*/
-	background-color: #47935C;
-}
+
+/* === hover effects for the menu  === */
 nav>ul>li:hover > ul{
 	display: block;
 	padding: 0.5em;
-	/*background-color: rgb(72, 95, 43);*/
 	background-color: #47935C;
 }
 nav>ul>li>ul>li:hover{
@@ -100,7 +103,6 @@ nav>ul>li>ul>li:hover{
 #main{
 	display: block;
 	overflow: auto;
-	/*height: 100%;*/
 	min-height: 76.5vh;
 	padding: 1em;
 }
@@ -115,16 +117,17 @@ section{
 text-transform: uppercase;
 font-size: 3em;
 }
-/*FOOTER*/
+
+/*=== Start FOOTER Start === */
 footer{
 	position: relative;
 	bottom: 0;
 	width: 100%;
 	overflow: hidden;
 	clear: both;
+	background-color: rgb(133, 187, 101);
 }
 footer div{
 	padding: 1em;
 	text-align: center;
-
 }

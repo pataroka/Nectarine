@@ -1,3 +1,5 @@
+/*Styles for event page */
+
 .navigation>nav>ul>li>span>a:after{
 	content: " \25BC";
 }
@@ -5,16 +7,9 @@
 #main, #sidebar{
 	float: left;
 }
-#main{
-	width: 84.4%;
-	background-color: gray;
-	-webkit-box-shadow: inset 10px 2px 23px 0px rgba(0,0,0,0.75);
-	-moz-box-shadow: inset 10px 2px 23px 0px rgba(0,0,0,0.75);
-	box-shadow: inset 10px 2px 23px 0px rgba(0,0,0,0.75);
-}
-#main>div{
-	overflow: auto;
-}
+
+
+/*=== Start SIDEBAR Start ===*/
 #sidebar{
 	width: 13%;
 	overflow: auto;
@@ -31,6 +26,29 @@
 #sidebar nav a{
 	margin:0 0.5em;
 }
+/*=== End SIDEBAR End ===*/
+
+
+#main{
+	width: 84.4%;
+	background-color: gray;
+	-webkit-box-shadow: inset 10px 2px 23px 0px rgba(0,0,0,0.75);
+	-moz-box-shadow: inset 10px 2px 23px 0px rgba(0,0,0,0.75);
+	box-shadow: inset 10px 2px 23px 0px rgba(0,0,0,0.75);
+}
+#main>div{
+	display: flex;
+	flex-direction: row;
+	flex-wrap: wrap;
+	justify-content: space-around;
+	align-items: stretch;
+	align-content: space-around;
+
+	width: 100%;
+}
+h2, h3{
+	width: 100%;
+}
 .event{
 	text-align: center;
 	background-color: rgb(138, 166, 112);
@@ -40,12 +58,11 @@
 	box-shadow: 1em -1em 1.7em 0em rgba(0,0,0,0.75);
 }
 .soon{
-	width: 43%;
-	height: 460px;
+	justify-content: space-around;
+	align-items: stretch;
+	flex-grow: 1;
+	flex-basis: auto;
 }
 .passed{
-	width: 92%;
-}
-footer{
-	background-color: rgb(133, 187, 101);
+	width: 100%;
 }
