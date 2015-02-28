@@ -43,3 +43,10 @@ input{
 footer{
 	background-color: rgb(133, 187, 101);
 }
+
+video{
+	position: fixed;
+	top:10%;
+	left:1%;
+	width:100%;
+}
