@@ -1,9 +1,5 @@
 /*Styles for event page */
 
-.navigation>nav>ul>li>span>a:after{
-	content: " \25BC";
-}
-
 #main, #sidebar{
 	float: left;
 }

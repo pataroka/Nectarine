@@ -73,6 +73,9 @@ nav>ul>li{
 	border-top-left-radius: 0.5em;
 	border-top-right-radius: 0.5em;
 }
+.navigation>nav>ul>li>span>a:after{
+	content: " \25BC";
+}
 /*sub menu*/
 
 ul ul{
