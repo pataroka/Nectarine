@@ -139,8 +139,17 @@ footer{
 	overflow: hidden;
 	clear: both;
 	background-color: rgb(133, 187, 101);
+	display: inline-flex;
+	flex-direction: row;
 }
 footer div{
 	padding: 1em;
 	text-align: center;
+	flex-grow: 1;
+}
+footer>div:first-child{
+	text-align: right;
+}
+#validators{
+	text-align: left;
 }
