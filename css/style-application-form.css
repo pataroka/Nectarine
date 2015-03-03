@@ -36,6 +36,10 @@ fieldset{
 	border: none;
 }
 
+.column{
+	float: left;
+	margin-right: 35px;
+}
 input{
 	vertical-align: sub;
 }
