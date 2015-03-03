@@ -3,6 +3,7 @@
 
 <head>
     <title>Application quiz</title>
+    <meta charset="UTF-8">
     <link rel="shortcut icon" href="../images/site-icon/siteicon.ico">
     <link href="../css/style.css" rel="stylesheet"/>
     <link rel="stylesheet" href="../css/style-application-form.css">
@@ -42,9 +43,7 @@
 
 			<form>
 				<fieldset>
-					<legend>
-						<h2>Recruit personal info</h2>
-					</legend>
+					<legend>Recruit personal info</legend>
 					<input type="text" name="firstname" placeholder="First name" pattern="[A-Za-z]+" />
 					<input type="text" name="lastname" placeholder="Last name" pattern="[A-Za-z]+" />
 					<input type="text" name="age" placeholder="Age" pattern="(\d)+" />
@@ -55,9 +54,7 @@
 
 			<form name="quiz">
 				<fieldset>
-					<legend>
-						<h2>Application Questionnaire</h2>
-					</legend>
+					<legend>Application Questionnaire</legend>
 					<div class="column">
 					<h3>1. If Nakov eats himself, what will happen?</h3>
 					<ol type="a">
@@ -127,9 +124,7 @@
 
 			<form>
 				<fieldset>
-					<legend>
-						<h2>Done?</h2>
-					</legend>
+					<legend>Done?</legend>
 					<input type="button" value="Get score" onclick="ShowResult()">
 					<input type="reset" value="Clear answers" onclick="Clear()">
 					<p> Score = <strong><input type="text" id="scr" size="5" name="percentage" disabled></strong>

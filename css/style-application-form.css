@@ -36,6 +36,11 @@ fieldset{
 	border: none;
 }
 
+legend{
+	font-size: 2em;
+	font-weight: bolder;
+}
+
 .column{
 	float: left;
 	margin-right: 35px;
