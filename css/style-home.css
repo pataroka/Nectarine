@@ -1,0 +1,59 @@
+	body{
+		background-color: rgba(128, 128, 128, 1);
+	}
+	#main{
+		width: 85%;
+		margin: 0 auto;
+		display: flex;
+		flex-direction: row;
+		flex-wrap: wrap;
+		justify-content: space-around;
+		align-items: stretch;
+		padding: 2.5em 1em;
+	}
+	section{
+		background-color: rgb(138, 166, 112);
+		-webkit-box-shadow: 1em -1em 1.7em 0em rgba(0,0,0,0.75);
+		-moz-box-shadow: 1em -1em 1.7em 0em rgba(0,0,0,0.75);
+		box-shadow: 1em -1em 1.7em 0em rgba(0,0,0,0.75);
+
+		margin: 1em;
+		flex-grow: 1;
+	}
+	section img{
+		width: 150px;
+		float:left;
+		max-width: 100%;
+		margin-right: 1em;
+	}
+	section img.right{
+		float: right;
+		-webkit-filter: invert(1);
+		filter: invert(1);
+	}
+	section.double{
+		flex-grow: 2;
+	}
+	section>video{
+		width: 100%;
+		background-color: rgba(97, 89, 89, 0.81);
+	}
+	.title{
+		font-size: 1.5em;
+	}
+	.description{
+		margin-top: 1em;
+		font-size: 1.5em;
+	}
+	h3{
+		letter-spacing: 2px;
+		font-size: 1.5em;
+	}
+	.link{
+		cursor: pointer;
+	}
+	a,
+	a:visited{
+		text-decoration: none;
+		color: white;
+	}
