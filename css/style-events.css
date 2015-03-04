@@ -1,15 +1,19 @@
 /*Styles for event page */
 
-#main, #sidebar{
-	float: left;
-}
+/*#main, #sidebar{*/
+/*	float: left;*/
+/*}*/
 
+#content{
+	display:flex;
+}
 
 /*=== Start SIDEBAR Start ===*/
 #sidebar{
-	width: 13%;
+	/*width: 13%;*/
 	overflow: auto;
 	padding: 1em 0;
+	flex-grow:2;
 }
 #sidebar nav ul{
 	padding: 0;
@@ -27,6 +31,7 @@
 
 
 #main{
+	flex-grow:13;
 	width: 84.4%;
 	background-color: gray;
 	-webkit-box-shadow: inset 10px 2px 23px 0px rgba(0,0,0,0.75);
@@ -64,6 +69,8 @@ h2, h3{
 	width: 320px;
 	height: 320px;
 	border-radius: 1em;
+	max-width: 100%;
+}
 }
 .passed{
 	width: 100%;
