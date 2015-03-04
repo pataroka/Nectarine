@@ -195,7 +195,9 @@
 		background-color: #6BB06B;
 		color: #FFF;
 		margin: 1em 0.5em;
-		width: 100%;
+		font-family: Illuminati;
+		font-size: 1.5em;
+		width: 92%;
 	}
 	#btn-menu:after{
 		content: "\25BC";
