@@ -13,6 +13,7 @@
 }
 #sidebar nav ul{
 	padding: 0;
+	display: block;
 }
 #sidebar nav ul li{
 	width: 90%;
