@@ -57,3 +57,14 @@
 		text-decoration: none;
 		color: white;
 	}
+	@media only screen and (max-width:  760px) {
+		#main{
+			flex-direction: column;
+			width: 100%;
+			padding: 1em 0em;
+		}
+		#main > section{
+			width:95%;
+			margin: 1em 0em;
+		}
+	}
