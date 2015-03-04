@@ -4,11 +4,11 @@
 Our website is called **"SoftUni Illuminati"** and you can check it out live on [http://redjoff.cloudvps.bg](http://redjoff.cloudvps.bg/ "Visit our website")
 
 | N | Member | Contribution |
-|:-:|:------:|:------------:|
-| 1 |Aneta Marinova||
-| 2 |Victoria Vicheva||
-| 3 |Denis Neychev||
-| 4 |Dimitar Marinov||
-| 5 |Ivaylo Zgurov||
-| 6 |Plamen Redzhov||
-| 7 |Tanya Delcheva||
+|:-:|:------:|:-------------|
+| 1 |Aneta Marinova|page: "Religion", presentation|
+| 2 |Victoria Vicheva|page:Mission|
+| 3 |Denis Neychev|logo and page “The council of 13”|
+| 4 |Dimitar Marinov|Navigation & Footer for all pages, pages: “Event “, “Index”; JavaScript for the "Application form"  and responsive design.|
+| 5 |Ivaylo Zgurov|page: Mind Control|
+| 6 |Plamen Redzhov|page: “Application form”, organizing  work  and  correcting other pages, put the site online|
+| 7 |Tanya Delcheva|page: "Finances" and  "Symbols"|
