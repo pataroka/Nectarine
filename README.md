@@ -1,7 +1,7 @@
 # Nectarine
 ###Team Nectarine WebSite project
 
-Our website is called **"SoftUni Illuminati"** and you can check it out live on [http://redjoff.cloudvps.bg](http://redjoff.cloudvps.bg/ "Visit our website")
+Our website is called **"SoftUni Illuminati"** and you can check it out live on <a href="http://redjoff.cloudvps.bg" target="_blank">redjoff.cloudvps.bg</a>
 
 | N | Member | Contribution |
 |:-:|:------:|:-------------|
