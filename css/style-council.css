@@ -19,7 +19,7 @@
 
 .image{
     float: left;
-    width:18%;
+    margin-right: 1em;
 }
 .image img{
     border-radius: 10px;
