@@ -26,7 +26,8 @@
 
 
 #main{
-	width: 84.4%;
+	width:auto;
+	/*width: 84.4%;*/
 	background-color: gray;
 	-webkit-box-shadow: inset 10px 2px 23px 0px rgba(0,0,0,0.75);
 	-moz-box-shadow: inset 10px 2px 23px 0px rgba(0,0,0,0.75);
