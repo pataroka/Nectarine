@@ -10,6 +10,7 @@
 	font-style: normal;
 
 }
+
  html, body{
 	height: 100%;
 	font-family: Illuminati;
@@ -145,11 +146,34 @@ footer{
 footer div{
 	padding: 1em;
 	text-align: center;
-	flex-grow: 1;
 }
 footer>div:first-child{
 	text-align: right;
+	flex-grow: 1;
 }
 #validators{
 	text-align: left;
+	flex-grow: 1;
+}
+
+@media only screen and (max-width: 1024px) {
+
+	.header.navigation{
+		width: 80%;
+		display: inline-flex;
+		justify-content: space-between;
+	}
+
+	nav ul {
+		position: relative;
+		text-align: left;	
+	}
+}
+
+@media only screen and (max-width:  760px) {
+
+	nav ul{
+		display: none;
+	}
+
 }
