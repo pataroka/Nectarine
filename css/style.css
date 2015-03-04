@@ -149,9 +149,11 @@ footer div{
 }
 footer>div:first-child{
 	text-align: right;
+	flex-grow: 1;
 }
 #validators{
 	text-align: left;
+	flex-grow: 1;
 }
 
 @media only screen and (max-width: 1024px) {
