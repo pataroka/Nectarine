@@ -7,34 +7,39 @@
 	<link href="../css/style.css" rel="stylesheet"/>
 	<link rel="stylesheet" href="../css/style-finances.css">
 	<link rel="shortcut icon" href="../images/img-finance/siteicon.ico">
+	<script src="../js/main.js"></script>
 </head>
 <body>
 	<div id="wrapper">
-	<!-- header starts here -->
+		<!-- header starts here -->
 		<header>
 			<div class="header navigation">
 				<div id="logo">
-					<a href="https://softuni.bg/" title="SoftUni Home"><img src="../images/site-logo/logo-nocrown.png" alt="Logo goes here" /></a>
-				</div>	
-				<nav>
-					<ul>
-						<li><a href="../pages/mission.html">Mission</a></li>
-						<li>
-							<span><a href="#">Doctrines</a></span>
-							<ul>
-								<li><a href="../pages/finances.html">Finances</a></li>
-								<li><a href="../pages/religion.html">Religion</a></li>
-								<li><a href="../pages/mind-control.html">Mind control</a></li>
-							</ul>
-						</li>
-						<li><a href="../pages/events.html">Events</a></li>
-						<li><a href="../pages/council-of-13.html">The Council of 13</a></li>
-						<li><a href="../pages/application-form.html">Application form</a></li>
-					</ul>
-				</nav>
+					<a href="../index.html" title="SoftUni Home"><img src="../images/site-logo/logo-nocrown.png" alt="Logo goes here" /></a>
+				</div>
+				<div id="menu">
+					<button id="btn-menu" onclick="ShowMenu('menu')" >Menu</button>	
+					<nav>
+						<ul>
+							<li><a href="../pages/mission.html">Mission</a></li>
+							<li onclick="ShowMenu('sub-menu')" >
+								<span><a href="#">Doctrines</a></span>
+								<ul id="sun-menu">
+									<li><a href="../pages/new-world-order.html">Theory of The New World Order</a></li>
+									<li><a href="../pages/finances.html">Finances</a></li>
+									<li><a href="../pages/religion.html">Religion</a></li>
+									<li><a href="../pages/mind-control.html">Mind control</a></li>
+								</ul>
+							</li>
+							<li><a href="../pages/events.html">Events</a></li>
+							<li><a href="../pages/council-of-13.html">The Council of 13</a></li>
+							<li><a href="../pages/application-form.html">Application form</a></li>
+						</ul>
+					</nav>
+				</div>
 			</div>
 		</header>
-	<!-- header ends here -->
+		<!-- header ends here -->
 		<main id="main-finance">
 			<p>
 				<h1>Software Univercity is part of a huge world finance system owned by Illuminati!
