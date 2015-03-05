@@ -1,0 +1,25 @@
+article{
+    background-color: rgb(138, 166, 112);
+    margin: 1em;
+    padding: 1em;
+    -webkit-box-shadow: 1em -1em 1.7em 0em rgba(0,0,0,0.75);
+    -moz-box-shadow: 1em -1em 1.7em 0em rgba(0,0,0,0.75);
+    box-shadow: 1em -1em 1.7em 0em rgba(0,0,0,0.75);
+}
+
+#main{
+    width: auto;
+    background-color: gray;
+    -webkit-box-shadow: inset 10px 2px 23px 0px rgba(0,0,0,0.75);
+    -moz-box-shadow: inset 10px 2px 23px 0px rgba(0,0,0,0.75);
+    box-shadow: inset 10px 2px 23px 0px rgba(0,0,0,0.75);
+}
+
+div>img{
+    margin-top: 1em;
+    border-radius: 10px;
+}
+
+#events{
+    margin-top: 2em
+}
