@@ -10,7 +10,7 @@
 }
 
 #main{
-    width: 100%;
+    width: auto;
     background-color: gray;
     -webkit-box-shadow: inset 10px 2px 23px 0px rgba(0,0,0,0.75);
     -moz-box-shadow: inset 10px 2px 23px 0px rgba(0,0,0,0.75);
